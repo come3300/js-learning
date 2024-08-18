@@ -5,7 +5,13 @@
 // 2. function => Window / Global
 
 const person = {
-    firstName: "ケビン",
+    // firstName: "ケビン",
+    // languages: ["英語", "日本語"],
+    // showlanguages() {
+    //     this.languages.forEach(function (language) {
+    //         console.log(this.firstName, language);
+    //     }, this)
+    // }
     languages: ["英語", "日本語"],
     showLanguages() {
         this.languages.forEach((language) => {
@@ -18,7 +24,8 @@ const person = {
         }, 1000);
     }
 }
-
+// person.showlanguages();
+person.showThis();
 person.greet();
 
 
