@@ -11,6 +11,8 @@ const studies = [
     { language: 'C#', hours: 10 }
 ];
 
+//forEach
+
 // map
 const doubledHours = studies.map((study) => {
     return 2 * study.hours;
